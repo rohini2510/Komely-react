@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>KomleyChekout - Portfolio Page</title>
+    <meta property="og:title" content="KomleyChekout - Portfolio Page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0; background-color:#F8F7F2 !important; }* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Arial;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="assets/css/komley-chekout.css" rel="stylesheet" />
+
+      <div class="komley-chekout-container">
+        <div data-role="Header" class="komley-chekout-navbar-container">
+          <div class="komley-chekout-navbar">
+            <img
+              alt="image"
+              src="assets/img/landingpage/komely_logo.svg"
+              class="komley-chekout-image"
+            />
+          </div>
+        </div>
+        <div class="komley-chekout-container1">
+          <div class="komley-chekout-hero">
+            <div class="komley-chekout-hero-text-container">
+              <h1 class="komley-chekout-heading">
+                <span>Perfect!</span>
+                <br />
+                <span>Just one more step</span>
+              </h1>
+              <span class="komley-chekout-text03">
+                For your convenience, in addition to all major credit cards,
+                <div>UPI's, bank transactions you can now checkout with Razorpay.</div>
+              </span>
+              <img
+                alt="image"
+                src="assets/img/landingpage/komley_chekout.svg"
+                class="komley-chekout-image1"
+              />
+            </div>
+            <div class="komley-chekout-card-container">
+              <div class="komley-chekout-container2">
+                <div class="komley-chekout-card">
+                  <div class="komley-chekout-card-content">
+                    <span class="komley-chekout-text04">Payment Method</span>
+                    <img
+                      alt="image"
+                      src="assets/img/landingpage/razorpay-icon.svg"
+                      class="komley-chekout-image2"
+                    />
+                  </div>
+                </div>
+                <div class="komley-chekout-card1">
+                  <div class="komley-chekout-card-content1">
+                    <div class="komley-chekout-container3">
+                      <input
+                      id="myCheck"
+                        type="checkbox"
+                        checked=""
+                        class="komley-chekout-checkbox"
+                        onclick="myFunction()"
+                      />
+                      <span class="komley-chekout-text05">
+                        I want GST invoice
+                      </span>
+                    </div>
+                    <div class="komley-chekout-container4" id="komley-chekout-container4">
+                      <div class="komley-chekout-input-content">
+                        <span class="komley-chekout-text06">GSTIN no</span>
+                        <input
+                          type="text"
+                          id="gst_no"
+                          name="gst_no"
+                          placeholder="Enter GSTIN number"
+                          class="komley-chekout-textinput input"
+                        />
+                      </div>
+                      <div class="komley-chekout-input-content1">
+                        <span class="komley-chekout-text07">
+                          business address
+                        </span>
+                        <input
+                          type="text"
+                          id="business_address"
+                          name="business_address"
+                          placeholder="Enter Business Address"
+                          class="komley-chekout-textinput1 input"
+                        />
+                      </div>
+                      <div class="komley-chekout-input-content2">
+                        <span class="komley-chekout-text08">pincode</span>
+                        <input
+                          type="text"
+                          id="pincode"
+                          name="pincode"
+                          placeholder="Enter Pincode"
+                          class="komley-chekout-textinput2 input"
+                        />
+                      </div>
+                      <div class="komley-chekout-input-content3">
+                        <span class="komley-chekout-text09">state/region</span>
+                        <input
+                          type="text"
+                          id="state_or_region"
+                          name="state_or_region"
+                          placeholder="Enter your state/region"
+                          class="komley-chekout-textinput3 input"
+                        />
+                      </div>
+                      <div class="komley-chekout-input-content4">
+                        <span class="komley-chekout-text10">country</span>
+                        <select class="komley-chekout-select">
+                          <option value="India" selected="">India</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="komley-chekout-card2">
+                <div class="komley-chekout-card-content2">
+                  <span class="komley-chekout-text11">Detail Summary</span>
+                  <div class="komley-chekout-container5">
+                    <span class="komley-chekout-text12">
+                      Annual Plan Subscription
+                    </span>
+                    <span class="detail_summary_amount">₹3444</span>
+                  </div>
+                  <div class="komley-chekout-container6">
+                    <span class="komley-chekout-text14">GST (18%)</span>
+                    <span class="detail_summary_amount">₹756</span>
+                  </div>
+                  <div class="komley-chekout-separator"></div>
+                  <div class="komley-chekout-container7">
+                    <span class="komley-chekout-text16" style="color: #24172E;">Total</span>
+                    <span class="detail_summary_amount_total" style="color: #24172E;">₹4200</span>
+                  </div>
+                  <button class="komley-chekout-choose button">
+                    Choose Plan
+                  </button>
+                </div>
+              </div>
+            </div>
+            <img
+              alt="image"
+              src="assets/img/landingpage/side_shape.svg"
+              class="komley-chekout-image3"
+            />
+          </div>
+        </div>
+        <div class="komley-chekout-image-container">
+          <div class="komley-chekout-footer">
+            <img
+              alt="image"
+              src="assets/img/landingpage/komely_logo1.svg"
+              class="komley-chekout-image4"
+            />
+          </div>
+        </div>
+        <div class="komley-chekout-footer-container">
+          <div class="komley-chekout-footer1">
+            <span>© 2022-2023. Komely. All Rights Reserved</span>
+            <span>Privacy Policy | Terms &amp; Conditions</span>
+            <span>Made with ❤️ by Touchmark Descience</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </body>
+  <script>
+    function myFunction() {
+      // Get the checkbox
+      var checkBox = document.getElementById("myCheck");
+      // Get the output text
+      var text = document.getElementById("komley-chekout-container4");
+
+      // If the checkbox is checked, display the output text
+      if (checkBox.checked == true){
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+  </script>
+</html>
