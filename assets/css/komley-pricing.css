@@ -1,0 +1,839 @@
+/* Begin: Font */
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-ExtraBold.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-BoldSlanted.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-BoldSlanted.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-Light.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-ExtraBoldSlanted.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-ExtraBoldSlanted.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-BlackSlanted.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-BlackSlanted.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-Bold.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-Black.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-Thin.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-ThinSlanted.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-ThinSlanted.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-MediumSlanted.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-MediumSlanted.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-RegularSlanted.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-RegularSlanted.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-Regular.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-LightSlanted.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-LightSlanted.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-SuperSlanted.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-SuperSlanted.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-Super.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-Super.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-Medium.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+/* End: Font */
+
+.komley-pricing-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  /* border-color: var(--dl-color-gray-black);
+  border-width: 1px; */
+  flex-direction: column;
+  background-color: #F8F7F2;
+}
+.komley-pricing-navbar-container {
+  z-index: 999999 !important;
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  box-shadow: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #EE316B;
+}
+.komley-pricing-navbar {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-doubleunit);
+  justify-content: space-between;
+}
+.komley-pricing-image {
+  width: 100px;
+  object-fit: cover;
+}
+.komley-pricing-container1 {
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-space-space-tenunits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F8F7F2;
+  /* margin-top: auto;
+  margin-bottom: auto; */
+}
+.komley-pricing-hero {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  /* align-items: center; */
+  /* margin-top: 60px; */
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #F8F7F2;
+}
+.komley-pricing-hero-text-container {
+  width: 40%;
+  display: flex;
+  align-items: flex-start;
+  padding-right: 60px;
+  flex-direction: column;
+}
+.komley-pricing-heading {
+  font-family: Subjectivity;
+  color: #24172E;
+  font-size: 36px;
+  align-self: flex-start;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0px;
+  margin-bottom: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.komley-pricing-text {
+  color: #707070;
+  font-family: Public Sans;
+  margin-bottom: var(--dl-space-space-fiveunits);
+}
+.komley-pricing-card-container {
+  width: 715px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.komley-pricing-card {
+  width: 30%;
+  display: flex;
+  min-width: 350px;
+  align-items: center;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+}
+.komley-pricing-card-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-tripleunit);
+  padding-top: var(--dl-space-space-tripleunit);
+  margin-right: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+  box-shadow: 0px 0px 6px #00000029;
+  border: 1px solid transparent;
+}
+.komley-pricing-text01 {
+  color: rgb(132, 45, 114);
+  font-size: 22px;
+  align-self: flex-start;
+  font-family: Public Sans;
+  margin-bottom: 9px;
+  font-weight: 600;
+}
+.komley-pricing-container2 {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.komley-pricing-text02 {
+  color: #842D72;
+  font-size: 36px;
+  align-self: center;
+  font-family: Subjectivity;
+}
+.komley-pricing-text03 {
+  color: #842d72;
+  align-self: center;
+  font-family: Public Sans;
+  margin-left: var(--dl-space-space-doubleunit);
+  font-size: 15px;
+}
+.komley-pricing-container3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-tripleunit);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.komley-pricing-image1 {
+  width: auto;
+  height: auto;
+  align-self: center;
+  object-fit: cover;
+}
+.komley-pricing-text04 {
+  color: #24172E;
+  align-self: center;
+  font-family: Public Sans;
+  margin-left: 13px;
+}
+.komley-pricing-choose {
+  font-size: 14px;
+  font-weight: 600 !important;
+  flex: 1;
+  color: rgb(238, 49, 107);
+  width: 100%;
+  height: 51px;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Public Sans;
+  padding-top: var(--dl-space-space-unit);
+  border-color: #EE316B;
+  padding-left: var(--dl-space-space-tenunits);
+  border-radius: 6px;
+  padding-right: var(--dl-space-space-tenunits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-white);
+}
+
+.komley-pricing-card1 {
+  width: 30%;
+  display: flex;
+  min-width: 350px;
+  align-items: center;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+}
+.komley-pricing-card-content1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.komley-pricing-text05 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(132, 45, 114);
+  font-size: 22px;
+  font-family: Public Sans;
+  margin-bottom: 9px;
+  width: 100%;
+  border-radius: 2px;
+  font-weight: 600;
+}
+.komley-pricing-container4 {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.komley-pricing-text06 {
+  color: rgb(132, 45, 114);
+  font-size: 36px;
+  align-self: center;
+  font-family: Subjectivity;
+}
+.komley-pricing-text07 {
+  font-size: 15px;
+  color: rgb(132, 45, 114);
+  align-self: center;
+  font-family: Public Sans;
+  margin-left: var(--dl-space-space-doubleunit);
+}
+.komley-pricing-container5 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-tripleunit);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.komley-pricing-image2 {
+  width: auto;
+  height: auto;
+  align-self: center;
+  object-fit: cover;
+}
+.komley-pricing-text08 {
+  color: #24172E;
+  align-self: center;
+  font-family: Public Sans;
+  margin-left: 13px;
+}
+.komley-pricing-choose1 {
+  font-size: 14px;
+  font-weight: 600 !important;
+  flex: 1;
+  color: rgb(238, 49, 107);
+  width: 100%;
+  height: 51px;
+  text-align: center;
+  font-family: Public Sans;
+  padding-top: var(--dl-space-space-unit);
+  border-color: #EE316B;
+  padding-left: var(--dl-space-space-tenunits);
+  border-radius: 6px;
+  padding-right: var(--dl-space-space-tenunits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-white);
+}
+.komley-pricing-image3 {
+  width: auto;
+  align-self: flex-start;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fourunits);
+}
+.komley-pricing-herotwo {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: end;
+  padding-left: var(--dl-space-space-tenunits);
+  /* padding-right: var(--dl-space-space-tenunits); */
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #F8F7F2;
+}
+.komley-pricing-text09 {
+  font-size: 16px;
+  color: #707070 !important;
+  font-family: Public Sans;
+  margin-top: var(--dl-space-space-tripleunit);
+  /* margin-bottom: var(--dl-space-space-fiveunits); */
+}
+.komley-pricing-image-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  margin-bottom: var(--dl-space-space-tenunits);
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #F8F7F2;
+}
+.komley-pricing-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: 60px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: space-between;
+}
+.komley-pricing-footer-logo2 {
+  /* width: 100%; */
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  /* padding-left: var(--dl-space-space-tripleunit); */
+  /* padding-right: 60px; */
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: space-between;
+}
+.komley-pricing-image4 {
+  /* width: 407px; */
+  height: 468px;
+  align-self: center;
+  object-fit: cover;
+}
+.komley-pricing-image5 {
+  width: 720px;
+  height: auto;
+  align-self: flex-end;
+  object-fit: cover;
+  margin-top: 170px;
+}
+.komley-pricing-footer-container {
+  z-index: 999999 !important;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #F8F7F2;
+}
+.komley-pricing-footer1 {
+  color: #24172E;
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: space-between;
+  font-family: Public Sans;
+}
+
+.responsive-none {
+    display: none;
+}
+
+.responsive-block {
+    display: inline-block;
+}
+.komley-pricing-text {
+  font-size: 16px;
+}
+.komley-pricing-choose:hover, .komley-pricing-choose1:hover {
+  background-color: #EE316B;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.komley-pricing-card.selected {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #00000029;
+  border: 1px solid #EE316B;
+  border-radius: 8px;
+  opacity: 1;;
+}
+.komley-pricing-card.selected .komley-pricing-choose {
+  background-color: #EE316B;
+  color: #FFFFFF;
+}
+.komley-pricing-strictout {
+  font-family: Subjectivity;
+  font-size: 36px;
+  color: #A9A9A9;
+  opacity: 1;
+  font-weight: 500;
+  margin-right: 20px;
+  text-decoration: line-through;
+}
+
+.komley-badge {
+  background-color: #FFEEEE;
+  color: #EE316B;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Public Sans;
+  padding: 3px 8px;
+  text-transform: uppercase;
+}
+
+.komley-pricing-card-content:hover {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #00000029;
+  border: 1px solid #EE316B;
+  border-radius: 8px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.komley-pricing-card-content:hover .komley-pricing-choose {
+  background-color: #EE316B;
+  color: #FFFFFF;
+}
+@media(max-width: 1600px) {
+  .komley-pricing-card-container {
+    width: 718px;
+  }
+  /* .komley-pricing-hero {
+    margin-top: var(--dl-space-space-tenunits);
+    margin-bottom: var(--dl-space-space-tenunits);
+  } */
+  .komley-pricing-heading, .komley-pricing-text02, .komley-pricing-text06 {
+    font-size: 36px;
+  }
+  .komley-pricing-text {
+    font-size: 16px;
+  }
+  .komley-pricing-text01 {
+    font-size: 22px;
+  }
+  .komley-pricing-text03 {
+    font-size: 15px;
+  }
+  .komley-pricing-text04, .komley-pricing-text09, .komley-pricing-text08 {
+    font-size: 16px;
+  }
+  .komley-pricing-choose, .komley-pricing-choose1 {
+    font-size: 14px;
+  }
+
+  /* .komley-pricing-card-container {
+    width: 900px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  } */
+
+  .responsive-none {
+      display: flex;
+  }
+  
+  .responsive-block {
+      display: none;
+  }
+}
+
+@media(max-width: 1300px) {
+  .komley-pricing-card-container {
+    width: 840px;
+  }
+}
+@media(max-width: 1200px) {
+  .komley-pricing-heading, .komley-pricing-text02, .komley-pricing-text06 {
+    font-size: 32px;
+  }
+  .komley-pricing-text {
+    font-size: 14px;
+  }
+  .komley-pricing-text01 {
+    font-size: 20px;
+  }
+  .komley-pricing-text03 {
+    font-size: 12px;
+  }
+  .komley-pricing-text04, .komley-pricing-text09, .komley-pricing-text08 {
+    font-size: 14px;
+  }
+  .komley-pricing-choose, .komley-pricing-choose1 {
+    font-size: 12px;
+  }
+
+  .komley-pricing-card-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .komley-pricing-hero {
+    margin-top: 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    /* padding-bottom: var(--dl-space-space-tenunits); */
+    padding-bottom: 0;
+  }
+  .komley-pricing-hero-text-container {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-right: 0px;
+  }
+  .komley-pricing-heading {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+  }
+  .komley-pricing-text02, .komley-pricing-text06, .komley-pricing-strictout {
+    font-size: 32px;
+  }
+  .komley-pricing-text {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .komley-pricing-text01, .komley-pricing-text05 {
+    font-size: 18px;
+  }
+  .komley-pricing-text05 .komley-badge {
+    font-size: 10px;
+  }
+  .komley-pricing-text03 {
+    font-size: 12px;
+  }
+  .komley-pricing-image3 {
+    display: none;
+  }
+  .komley-pricing-herotwo {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+  }
+  .komley-pricing-image5 {
+    width: 600px;
+  }
+  .komley-pricing-image-container {
+    margin-bottom: 80px;
+  }
+
+  .responsive-none {
+      display: inline-block;
+  }
+  
+  .responsive-block {
+      display: none;
+  }
+}
+@media(max-width: 991px) {
+  .komley-pricing-hero {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    /* margin-bottom: 200px; */
+    padding-bottom: 0;
+    padding-top: var(--dl-space-space-tripleunit);
+  }
+  .komley-pricing-hero-text-container {
+    width: 80%;
+    align-items: center;
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .komley-pricing-text {
+    text-align: center;
+  }
+  .komley-pricing-card-container {
+    width: 100%;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .komley-pricing-card {
+    margin-right: var(--dl-space-space-fourunits);
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .komley-pricing-card1 {
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .komley-pricing-herotwo {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+  }
+  .komley-pricing-footer {
+    padding: var(--dl-space-space-tenunits);
+    flex-direction: column;
+    justify-content: center;
+  }
+  .komley-pricing-footer-logo2 {
+    padding: var(--dl-space-space-tenunits);
+    flex-direction: column;
+    justify-content: center;
+  }
+  .komley-pricing-image5 {
+    width: inherit;
+    margin-top: 0px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+  .komley-pricing-footer1 {
+    flex-direction: column;
+  }
+
+  .responsive-none {
+      display: inline-block;
+  }
+  
+  .responsive-block {
+      display: none;
+  }
+}
+@media(max-width: 767px) {
+  .komley-pricing-hero {
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+  .komley-pricing-navbar {
+    position: relative;
+  }
+  .komley-pricing-card {
+    margin-right: 5px;
+  }
+  .komley-pricing-image4 {
+    width: 300px;
+    height: auto;
+  }
+  .komley-pricing-footer1 {
+    flex-direction: column;
+  }
+
+  .komley-pricing-image-container {
+    margin-bottom: 50px;
+  }
+  .responsive-none {
+      display: inline-block;
+  }
+  
+  .responsive-block {
+      display: none;
+  }
+}
+@media(max-width: 479px) {
+  .komley-pricing-hero {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+  .komley-pricing-hero-text-container {
+    width: 100%;
+  }
+  .komley-pricing-footer {
+    padding: var(--dl-space-space-doubleunit);
+    flex-direction: column;
+    justify-content: center;
+  }
+  .komley-pricing-footer-logo2 {
+    padding: var(--dl-space-space-doubleunit);
+    flex-direction: column;
+    justify-content: center;
+  }
+  .komley-pricing-image5 {
+    align-self: center;
+  }
+  .komley-pricing-footer1 {
+    flex-direction: column;
+  }
+}

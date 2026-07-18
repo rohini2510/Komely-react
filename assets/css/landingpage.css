@@ -1,0 +1,1638 @@
+/* Begin: Font */
+@font-face {
+    font-family: 'Subjectivity';
+    src: url('../fonts/landing/Subjectivity-ExtraBold.woff2') format('woff2'),
+        url('../fonts/landing/Subjectivity-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Subjectivity';
+    src: url('../fonts/landing/Subjectivity-BoldSlanted.woff2') format('woff2'),
+        url('../fonts/landing/Subjectivity-BoldSlanted.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Subjectivity';
+    src: url('../fonts/landing/Subjectivity-Light.woff2') format('woff2'),
+        url('../fonts/landing/Subjectivity-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Subjectivity';
+    src: url('../fonts/landing/Subjectivity-ExtraBoldSlanted.woff2') format('woff2'),
+        url('../fonts/landing/Subjectivity-ExtraBoldSlanted.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Subjectivity';
+    src: url('../fonts/landing/Subjectivity-BlackSlanted.woff2') format('woff2'),
+        url('../fonts/landing/Subjectivity-BlackSlanted.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Subjectivity';
+    src: url('../fonts/landing/Subjectivity-Bold.woff2') format('woff2'),
+        url('../fonts/landing/Subjectivity-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Subjectivity';
+    src: url('../fonts/landing/Subjectivity-Black.woff2') format('woff2'),
+        url('../fonts/landing/Subjectivity-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Subjectivity';
+    src: url('../fonts/landing/Subjectivity-Thin.woff2') format('woff2'),
+        url('../fonts/landing/Subjectivity-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Subjectivity';
+    src: url('../fonts/landing/Subjectivity-ThinSlanted.woff2') format('woff2'),
+        url('../fonts/landing/Subjectivity-ThinSlanted.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Subjectivity';
+    src: url('../fonts/landing/Subjectivity-MediumSlanted.woff2') format('woff2'),
+        url('../fonts/landing/Subjectivity-MediumSlanted.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Subjectivity';
+    src: url('../fonts/landing/Subjectivity-RegularSlanted.woff2') format('woff2'),
+        url('../fonts/landing/Subjectivity-RegularSlanted.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Subjectivity';
+    src: url('../fonts/landing/Subjectivity-Regular.woff2') format('woff2'),
+        url('../fonts/landing/Subjectivity-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Subjectivity';
+    src: url('../fonts/landing/Subjectivity-LightSlanted.woff2') format('woff2'),
+        url('../fonts/landing/Subjectivity-LightSlanted.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Subjectivity';
+    src: url('../fonts/landing/Subjectivity-SuperSlanted.woff2') format('woff2'),
+        url('../fonts/landing/Subjectivity-SuperSlanted.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Subjectivity';
+    src: url('../fonts/landing/Subjectivity-Super.woff2') format('woff2'),
+        url('../fonts/landing/Subjectivity-Super.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Subjectivity';
+    src: url('../fonts/landing/Subjectivity-Medium.woff2') format('woff2'),
+        url('../fonts/landing/Subjectivity-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+/* End: Font */
+.responsive-aside {
+    display: flex;
+}
+
+.menu-link {
+    color: #FFFFFF !important;
+}
+
+.landingpage_logo {
+    background-color: #EE316B !important;
+}
+
+.menu-landingpage li.menu-item a {
+    color: #ffffff !important;
+}
+
+.btn-landingpage-logo {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+    background: rgba(0, 0, 0, 0);
+    margin: 1rem 2rem;
+}
+
+.landingpage-header {
+    background: url("../img/landingpage/background_hero_section.png");
+    background-size: cover;
+    background-repeat: no-repeat;   
+    /* min-height: 300px !important; */
+    padding: 30px 0;
+    background-origin: content-box;
+}
+
+.header_landingpage {
+    background-color: #F8F7F2;
+}
+
+.text-header-highlights-primary {
+    color: #842D72 !important;
+}
+
+.text-header-highlights-secondary {
+    color: #EE316B !important;
+}
+
+.header-content {
+    font-family: Subjectivity !important;
+    color: #333333 !important;
+    font-weight: 700 !important;
+    font-size: 28px !important;
+}
+
+.header-content small {
+    font-weight: 700 !important;
+    font-size: 28px !important;
+}
+
+.header-content-sub {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #707070 !important;
+    margin-top: 24px;
+}
+
+.landingpage-form {
+    color: black;
+    font-weight: 400;
+    text-align: center;
+}
+
+.landingpage-content-two {
+    background: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* min-height: 300px !important; */
+    /* padding-bottom: 153px !important; */
+    padding-top: 3rem !important;
+}
+
+.landingpage-content-two-responsive {
+    background: url("../img/landingpage/komely_logo_responsive.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* min-height: 300px !important; */
+    /* padding-bottom: 153px !important; */
+    padding-top: 3rem !important;
+    background-position: center;
+}
+
+.header-content-two {
+    font-family: Subjectivity;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    margin-top: 30px;
+}
+
+.content-bullet {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 500 !important;
+    line-height: 1.5;
+}
+
+.content-bullet-features {
+    color: #333333;
+    font-size: 12px;
+    font-weight: 500 !important;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.landingpage-content-four {
+    background: none;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    /* min-height: 300px !important; */
+    background-size: contain;
+    background-position: center !important;
+    padding-bottom: 30px;
+    background-repeat: no-repeat;
+}
+
+.landingpage-footer {
+    background-color: #842D72;
+}
+
+.landingpage-active-challenges {
+    background-color: #842D72;
+}
+
+.landingpage-active-solution {
+    background-color: #EE316B;
+}
+
+.landingpage-content-five {
+    background: url("../img/landingpage/landingpage_content_five.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* min-height: 300px !important; */
+    padding-top: 13px;
+    padding-bottom: 10px;
+}
+
+.content-five {
+    font-family: Subectivity;
+    font-weight: 700 !important;
+    font-size: 28px !important;
+    margin-bottom: 26px;
+}
+
+.content-five-title-pin {
+    margin-top: 0px;
+}
+
+.content-five-title-envelope {
+    margin-top: 0px;
+}
+
+.content-five-title {
+    font-size: 14px;
+    font-weight: 400;
+    color: #24172E;
+    margin-bottom: 40px !important;
+}
+
+.content-footer, .footer-link {
+    background-color: #842d72 !important;
+    color: #ffffff !important;
+}
+
+.landingpage-content-three {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* .landingpage-content-three.landingpage-active-challenges {
+    background: url("../img/landingpage/landingpage-content-tab-challenges.svg");
+}
+
+.landingpage-content-three.landingpage-active-solution {
+    background: url("../img/landingpage/landingpage-content-tab-solution.svg");
+} */
+
+.tab-button-title {
+    font-family: Subjectivity !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: #FFFFFF !important;
+    opacity: 50%;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.tab-button-title.active {
+    font-size: 18px !important;
+    opacity: 100%;
+}
+
+.landingpage-card-content {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 60px !important;
+    line-height: 33px !important;
+}
+
+.landingpage-tab-content {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    padding-right: 0;
+}
+
+.landing-page-content-icon-challenges {
+    z-index: 99;
+    position: absolute !important;
+    right: 0;
+    left: 0;
+    top: 10px;
+    bottom: 0;
+    margin: 0 auto;
+    width: 80px;
+}
+
+.landing-page-content-icon-solution {
+    z-index: 99;
+    position: absolute !important;
+    right: 0;
+    left: 0;
+    top: 10px;
+    bottom: 0;
+    margin: 0 auto;
+    width: 80px;
+}
+
+.landing-tab-content-card {
+    margin-top: 50px;
+    border-radius: 6px;
+}
+
+.bg-tab-solution {
+    background-color: #842D72 !important;
+}
+
+.tab-pane-challenges {
+    padding-right: 0 !important;
+    padding-left: 0px !important;
+}
+
+.template-customizer-open-btn {
+    display: none !important;
+}
+
+.landingpage-form-head {
+    font-family: Subjectivity !important;
+    font-size: 16px;
+}
+
+.landingpage-form-label, .landingpage-form-control {
+    font-weight: 400 !important;
+    font-size: 12px;
+}
+
+.call-icon {
+    width: 14px;
+}
+
+.landing-page-content-five-row {
+    margin: 5px;
+}
+
+.landingpage-content-row-features {
+    padding-left: 0 !important;
+}
+
+.responsive-none {
+    display: none;
+}
+
+.responsive-block {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.responsive-inline-block {
+    display: inline-block;
+    margin-top: -10px;
+}
+
+.mail-icon.responsive-block {
+    margin-top: -130px;
+}
+
+.landingpage-responsive-nav-align-left {
+    display: flex !important;
+}
+
+.landing-header_menu_sub {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+    
+.landingpage-form-btn {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+.landingpage-tab-image {
+    width: fit-content;
+    padding: 0px;
+    margin-top: 38px;
+}
+
+/* .landingpage-header-image {
+    width: 100px;
+    padding: 0px;
+    margin-top: 38px;
+} */
+
+.landingpage-card-content-solution {
+    margin-top: 42px !important;
+}
+
+.bg-tab-solution .card-body {
+    padding-bottom: 0 !important;
+}
+
+/* .navs-pills-left-solution-row {
+    padding-left: 55px;
+} */
+
+.landingpage-tab-responsive {
+    display: none !important;
+}
+
+.landingpage-tab-no-responsive {
+    display: block !important;
+}
+
+.landingpage-tab-responsive ul {
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+.landingpage-tab-responsive {
+    display: block !important;
+}
+
+.landingpage-tab-no-responsive {
+    display: none !important;
+}
+
+.col-landingpage-tab-content {
+    height: 100% !important;
+    margin-bottom: 20px;
+}
+
+.landingpage-tab-content-responsive {
+    padding-left: 0px;
+}
+
+.card-tab-solution .card-body {
+    padding-bottom: 1.5rem !important;
+}
+
+.landingpage_img_whocanuseit {
+    width: 450px;
+}
+
+/* .landingpage-bullet-div {
+    margin-bottom: 40px !important;
+} */
+
+.responsive-whocanuseit-none {
+    display: none !important;
+}
+
+.responsive-whocanuseit-flex {
+    display: flex !important;
+}
+
+.landingpage-footer-content div {
+    text-align: center !important;
+}
+
+.landingpage_banner_triangle {
+    bottom: 25px;
+    width: 25%;
+}
+
+.landingpage-content-img {
+    width: -webkit-fill-available;
+}
+
+.circle-dots {
+    top: -70px;
+    right: -70px;
+    display: none;
+}
+
+.triangle-dots {
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+
+.contact-us-bg {
+    background: url(../img/landingpage/contact-us-bg.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+/* On screens that are 445px or less, set the background color to blue */
+@media screen and (max-width: 445px) {
+    .triangle-dots {
+        display: none;
+    }
+
+    .landingpage-responsive-nav-align-left {
+        display: none !important;
+    }
+
+    .landingpage-footer-content div {
+        text-align: center !important;
+    }
+
+    .landingpage-tab-challenges-img {
+        display: none !important;
+    }
+
+    .landingpage-tab-solutions-img {
+        display: none !important;
+    }
+
+    .responsive-whocanuseit-none {
+        display: none !important;
+    }
+    
+    .responsive-whocanuseit-flex {
+        display: flex !important;
+    }
+
+    .landingpage-content-two {
+        background: none;
+    }
+}
+/* On screens that are 767px or less, set the background color to blue */
+@media screen and (min-width: 767px) {
+    .triangle-dots, .circle-dots {
+        display: block;
+    }
+  
+    .landingpage_banner {
+        margin-top: 60px;
+    }
+
+    .landingpage-nav {
+        flex-direction: column !important;
+    }
+    .landingpage-tab-challenges-img {
+        display: none !important;
+    }
+
+    .landingpage-tab-solutions-img {
+        display: none !important;
+    }
+
+    .landingpage-content-row-features {
+        padding-left: 50%;
+    }
+
+    .landingpage-header{
+        background-image: none;
+    }
+
+    .landingpage-content-four {
+        background: url("../img/landingpage/landingpage-content-four.svg");
+        padding: 35px;
+        background-size: contain;
+    }
+
+    .landing-page-content-five-row {
+        margin: 65px;
+    }
+
+    .content-five-title-pin {
+        margin-top: 30px;
+    }
+    
+    .content-five-title-envelope {
+        margin-top: 30px;
+    }
+
+    .responsive-none {
+        display: none;
+    }
+    
+    .responsive-block {
+        display: inline-block;
+    }
+
+    .responsive-inline-block {
+        display: inline-block;
+        margin-top: -10px;
+    }
+
+    .mail-icon.responsive-block {
+        margin-top: -130px;
+    }
+
+    .landingpage-responsive-nav-align-left {
+        display: flex !important;
+    }
+
+    /* .landingpage-header-image {
+        width: 100px;
+    } */
+
+    /* .landingpage-header-image {
+        display: none;
+    } */
+
+    .header-content, .header-content-sub {
+        text-align: center;
+    }
+
+    .header-content-sub {
+        margin-bottom: 30px !important;
+    }
+    
+    .landing-tab-content-card {
+        margin-top: 50px;
+    }
+    
+    .landingpage-content-three {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .landingpage-tab-image {
+        width: 100px;
+        margin-left: 20px;
+    }
+
+    .landingpage-tab-responsive ul {
+        margin-bottom: 5px;
+        justify-content: center;
+    }
+
+    .landingpage-tab-responsive {
+        display: block !important;
+    }
+
+    .landingpage-tab-no-responsive {
+        display: none !important;
+    }
+
+    .landingpage-content-two {
+        background-position: center;
+        background-size: contain !important;
+    }
+    
+    .landingpage_img_whocanuseit {
+        width: 350px;
+    }
+
+    .responsive-whocanuseit-none {
+        display: none !important;
+    }
+    
+    .responsive-whocanuseit-flex {
+        display: flex !important;
+    }
+
+    .landingpage-content-two {
+        background: none;
+    }
+
+    /* .landingpage-form-exicited {
+        margin-right: 0px;
+    } */
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (min-width: 992px) {
+
+    .landingpage_banner {
+        margin-top: 60px;
+    }
+    .landingpage-footer-content div {
+        text-align: left !important;
+    }
+
+    .landingpage-content-two {
+        background: none;
+    }
+
+    .landingpage-tab-responsive ul {
+        justify-content:first baseline;
+    }
+
+    .landingpage-tab-responsive {
+        display: none !important;
+    }
+
+    .landingpage-tab-no-responsive {
+        display: block !important;
+    }
+
+    .landingpage-nav {
+        flex-direction: row !important;
+    }
+    
+    .landingpage-tab-challenges-img {
+        display: none !important;
+    }
+    
+    .landingpage-tab-challenges-img {
+        display: block;
+    }
+
+    .landingpage-tab-solutions-img {
+        display: block;
+    }
+
+    .header-content, .header-content-sub {
+        text-align: left;
+    }
+
+    .header-content-sub {
+        margin-bottom: 0px !important;
+    }
+
+    /* .landingpage-header-image {
+        display: block;
+    } */
+    
+    .landingpage-tab-image {
+        width: 160px;
+        margin-top: 88px;
+    }
+
+    .responsive-aside {
+        display: flex !important;
+    }
+
+    .btn-landingpage-logo {
+        margin: 0rem 1rem;
+    }
+    
+    .landingpage-header {
+        background: url("../img/landingpage/background_hero_section.png");
+        background-repeat: no-repeat;  
+        padding: 30px 0 0 0 !important;
+        background-origin: content-box;
+        background-size: contain;
+    }
+    
+    .header-content {
+        font-size: 28px !important;
+    }
+    
+    .header-content small {
+        font-size: 28px !important;
+    }
+    
+    .header-content-sub {
+        font-size: 15px !important;
+        font-weight: 400 !important;
+        margin-top: 24px;
+    }
+
+    /* .landingpage-header-image {
+        width: 100px;
+        margin-top: 80px;
+        margin-bottom: 30px;
+    } */
+    
+    .landingpage-form {
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .landingpage-form-btn {
+        font-size: 12px !important;
+    }
+    
+    .landingpage-content-two {
+        background-position: center;
+        /* padding-bottom: 153px !important; */
+        padding-top: 3rem !important;
+    }
+    
+    .header-content-two {
+        font-size: 28px !important;
+        /* margin-top: 111px; */
+    }
+    
+    .content-bullet {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    
+    .content-bullet-features {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    
+    .landingpage-content-four {
+        background: url("../img/landingpage/landingpage-content-four.svg");
+        background-size: contain;
+        /* padding-bottom: 90px; */
+    }
+    
+    .landingpage-content-five {
+        padding-top: 13px;
+        padding-bottom: 10px;
+        /* background-origin: content-box;
+        background-position: inherit; */
+    }
+    
+    .content-five {
+        font-size: 28px !important;
+        margin-bottom: 26px;
+    }
+    
+    .content-five-title-pin {
+        margin-top: 26px;
+    }
+    
+    .content-five-title-envelope {
+        margin-top: 26px;
+    }
+    
+    .content-five-title {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    .landingpage-content-three {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    
+    .tab-button-title {
+        font-size: 26px !important;
+        opacity: 50%;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    
+    .tab-button-title.active {
+        font-size: 28px !important;
+    }
+    
+    .landingpage-card-content {
+        font-size: 18px;
+        margin-top: 60px !important;
+    }
+    
+    .landingpage-tab-content {
+        padding-right: 0;
+    }
+    
+    .landing-tab-content-card {
+        margin-top: 50px;
+    }
+    
+    .tab-pane-challenges {
+        padding-right: 0 !important;
+        padding-left: 140px !important;
+    }
+    
+    .template-customizer-open-btn {
+        display: none !important;
+    }
+
+    .landingpage-form-head, .landingpage-form-label, .landingpage-form-control {
+        font-size: 12px !important;
+    }
+
+    .call-icon {
+        width: 14px;
+    }
+
+    .landing-page-content-five-row {
+        margin: 65px;
+    }
+
+    .responsive-none {
+        display: block;
+    }
+    
+    .responsive-block {
+        display: none;
+    }
+
+    .landingpage-responsive-nav-align-left {
+        display: flex !important;
+    }
+
+    .landingpage-content-two {
+        background-position: center;
+        background-size: contain !important;
+    }
+    
+    .landingpage_img_whocanuseit {
+        width: 350px;
+    }
+
+    .responsive-whocanuseit-none {
+        display: flex !important;
+    }
+    
+    .responsive-whocanuseit-flex {
+        display: none !important;
+    }
+
+    .landingpage-content-two {
+        background: url("../img/landingpage/landingpage_content_two.svg");
+    }
+
+    /* .landingpage-form-exicited {
+        margin-right: 50px;
+    } */
+}
+
+/* On screens that are 1200px or less, set the background color to blue */
+@media screen and (min-width: 1200px) {
+
+    .landingpage_banner {
+        margin-top: 60px;
+    }
+
+    .responsive-aside {
+        display: none !important;
+    }
+
+    .btn-landingpage-logo {
+        margin: 0rem 1rem;
+    }
+    
+    .landingpage-header {
+        padding: 60px 0 0 0;
+        background-origin: content-box;
+        background-size: contain;
+    }
+    
+    .header-content {
+        font-size: 38px !important;
+    }
+    
+    .header-content small {
+        font-size: 38px !important;
+    }
+
+    .landingpage-form-head {
+        font-size: 15px !important;
+    }
+
+    .landingpage-form-label {
+        font-size: 12px !important;
+    }
+
+    .landingpage-form-control {
+        font-size: 12px !important;
+    }
+
+    .landingpage-input-group-text {
+        font-size: 12px !important;
+    }
+    
+    .landingpage-form-btn {
+        font-size: 12px !important;
+    }
+
+    .header-content-sub {
+        font-size: 15px !important;
+        font-weight: 400 !important;
+        margin-top: 24px;
+    }
+    
+    .landingpage-form {
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .landingpage-content-two {
+        /* padding-bottom: 153px !important; */
+        padding-top: 3rem !important;
+        background-position: bottom !important;
+    }
+    
+    .header-content-two {
+        font-size: 28px !important;
+        /* margin-top: 111px; */
+    }
+    
+    .content-bullet {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    
+    .content-bullet-features {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    
+    .landingpage-content-four {
+        background: url("../img/landingpage/landingpage-content-four.svg");
+        background-size: contain;
+        background-position: center;
+        padding-bottom: 90px;
+    }
+    
+    .landingpage-content-five {
+        padding-top: 13px;
+        padding-bottom: 10px;
+        background-size: contain;
+    }
+
+    .landing-page-content-icon-challenges {
+        top: 0;
+        width: auto;
+    }
+
+    .landing-page-content-icon-solution {
+        top: 0;
+        width: auto;
+    }
+
+    .call-icon {
+        width: 14px;
+    }
+    
+    .content-five {
+        font-size: 38px !important;
+        margin-bottom: 46px;
+    }
+    
+    .content-five-title-pin {
+        margin-top: 16px;
+    }
+    
+    .content-five-title-envelope {
+        margin-top: 16px;
+    }
+    
+    .content-five-title {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    .landingpage-content-three {
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    
+    .tab-button-title {
+        font-size: 26px !important;
+        opacity: 50%;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    
+    .tab-button-title.active {
+        font-size: 38px !important;
+    }
+    
+    .landingpage-card-content {
+        font-size: 18px;
+        margin-top: 40px !important;
+    }
+    
+    .landingpage-tab-content {
+        padding-right: 0;
+    }
+    
+    .landing-tab-content-card {
+        margin-top: 50px;
+    }
+    
+    .tab-pane-challenges {
+        padding-right: 0 !important;
+        padding-left: 165px !important;
+    }
+    
+    .template-customizer-open-btn {
+        display: none !important;
+    }
+
+    .landingpage-footer-content {
+        font-size: 12px !important;
+    }
+       
+    .landingpage-footer-content div {
+        text-align: center !important;
+    }
+
+    .landing-page-content-five-row {
+        margin: 65px;
+    }
+
+    .responsive-none {
+        display: block;
+    }
+    
+    .responsive-block {
+        display: none;
+    }
+
+    .landingpage-responsive-nav-align-left {
+        display: flex !important;
+    }
+
+    .landingpage-content-two {
+        background-position: center;
+        background-size: contain !important;
+    }
+
+    .responsive-whocanuseit-none {
+        display: flex !important;
+    }
+    
+    .responsive-whocanuseit-flex {
+        display: none !important;
+    }
+
+    .landingpage-content-two {
+        background: url("../img/landingpage/landingpage_content_two.svg");
+    }
+}
+
+/* On screens that are 1300px or less, set the background color to blue */
+@media screen and (min-width: 1300px) {
+
+    .landingpage_banner {
+        margin-top: 60px;
+    }
+
+    .responsive-aside {
+        display: none !important;
+    }
+
+    .btn-landingpage-logo {
+        margin: 0rem 1rem;
+    }
+    
+    .landingpage-header {
+        padding: 60px 0 0 0;
+        background-origin: content-box;
+        background-size: contain;
+    }
+    
+    .header-content {
+        font-size: 38px !important;
+    }
+    
+    .header-content small {
+        font-size: 38px !important;
+    }
+
+    .landingpage-form-head {
+        font-size: 15px !important;
+    }
+
+    .landingpage-form-label {
+        font-size: 12px !important;
+    }
+
+    .landingpage-form-control {
+        font-size: 12px !important;
+    }
+
+    .landingpage-input-group-text {
+        font-size: 12px !important;
+    }
+    
+    .landingpage-form-btn {
+        font-size: 12px !important;
+    }
+
+    .header-content-sub {
+        font-size: 15px !important;
+        font-weight: 400 !important;
+        margin-top: 24px;
+    }
+    
+    .landingpage-form {
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .landingpage-content-two {
+        /* padding-bottom: 153px !important; */
+        padding-top: 3rem !important;
+        background-position: bottom !important;
+    }
+    
+    .header-content-two {
+        font-size: 28px !important;
+        /* margin-top: 111px; */
+    }
+    
+    .content-bullet {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    
+    .content-bullet-features {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    
+    .landingpage-content-four {
+        background: url("../img/landingpage/landingpage-content-four.svg");
+        background-size: contain;
+        background-position: center;
+        padding-bottom: 90px;
+    }
+    
+    .landingpage-content-five {
+        padding-top: 13px;
+        padding-bottom: 10px;
+        background-size: contain;
+    }
+
+    .call-icon {
+        width: 14px;
+    }
+    
+    .content-five {
+        font-size: 38px !important;
+        margin-bottom: 46px;
+    }
+    
+    .content-five-title-pin {
+        margin-top: 16px;
+    }
+    
+    .content-five-title-envelope {
+        margin-top: 16px;
+    }
+    
+    .content-five-title {
+        padding-top: 1.5px !important;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    .landingpage-content-three {
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    
+    .tab-button-title {
+        font-size: 26px !important;
+        opacity: 50%;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    
+    .tab-button-title.active {
+        font-size: 38px !important;
+    }
+    
+    .landingpage-card-content {
+        font-size: 18px;
+        margin-top: 40px !important;
+    }
+    
+    .landingpage-tab-content {
+        padding-right: 0;
+    }
+    
+    .landing-tab-content-card {
+        margin-top: 50px;
+    }
+    
+    .tab-pane-challenges {
+        padding-right: 0 !important;
+        padding-left: 165px !important;
+    }
+    
+    .template-customizer-open-btn {
+        display: none !important;
+    }
+
+    .landingpage-footer-content {
+        font-size: 12px !important;
+    }
+       
+    .landingpage-footer-content div {
+        text-align: center !important;
+    }
+
+    .landing-page-content-five-row {
+        margin: 65px;
+    }
+
+    .responsive-none {
+        display: block;
+    }
+    
+    .responsive-block {
+        display: none;
+    }
+
+    .landingpage-responsive-nav-align-left {
+        display: flex !important;
+    }
+
+    .landingpage-content-two {
+        background-position: center;
+        background-size: contain !important;
+    }
+
+    .responsive-whocanuseit-none {
+        display: flex !important;
+    }
+    
+    .responsive-whocanuseit-flex {
+        display: none !important;
+    }
+
+    .landingpage-content-two {
+        background: url("../img/landingpage/landingpage_content_two.svg");
+    }
+}
+/* On screens that are 1400px or less, set the background color to blue */
+@media screen and (min-width: 1400px) {
+
+    .landingpage_banner {
+        margin-top: 60px;
+    }
+    .responsive-aside {
+        display: none !important;
+    }
+    
+    .btn-landingpage-logo {
+        margin: 0rem 1rem;
+    }
+
+    .landingpage-form-head {
+        font-size: 22px !important;
+    }
+
+    .landingpage-form-control {
+        font-size: 15px !important;
+    }
+    
+    .landingpage-header {
+        padding: 60px 0;
+        background-origin: content-box;
+        background-size: contain;
+    }
+    
+    .header-content {
+        font-size: 48px !important;
+        line-height: 1.3 !important;
+    }
+    
+    .header-content small {
+        font-size: 48px !important;
+    }
+    
+    .header-content-sub {
+        font-size: 20px !important;
+        font-weight: 400 !important;
+        margin-top: 24px;
+        line-height: 1.2;
+    }
+    
+    .landingpage-form {
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .landingpage-content-two {
+        /* padding-bottom: 153px !important; */
+        padding-top: 3rem !important;
+    }
+    
+    .header-content-two {
+        margin-bottom: 26px !important;
+        font-size: 48px !important;
+        margin-top: 0px;
+    }
+    
+    .content-bullet {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    
+    .content-bullet-features {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    
+    .landingpage-content-four {
+        background: url("../img/landingpage/landingpage-content-four.svg");
+        background-size: contain;
+        background-position: center;
+        padding-bottom: 0px;
+        background-repeat: no-repeat;
+    }
+    
+    .landingpage-content-five {
+        padding-top: 113px;
+        padding-bottom: 100px;
+    }
+    
+    .content-five {
+        font-size: 48px !important;
+        margin-bottom: 80px;
+    }
+    
+    .content-five-title-pin {
+        margin-top: 36px;
+    }
+    
+    .content-five-title-envelope {
+        margin-top: 36px;
+    }
+    
+    .content-five-title {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    
+    .landingpage-content-three {
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    
+    .tab-button-title {
+        font-size: 26px !important;
+        opacity: 50%;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    
+    .tab-button-title.active {
+        font-size: 38px !important;
+    }
+    
+    .landingpage-card-content {
+        font-size: 24px;
+        margin-top: 60px !important;
+    }
+    
+    .landingpage-tab-content {
+        padding-right: 0;
+    }
+    
+    .landing-tab-content-card {
+        margin-top: 50px;
+    }
+    
+    .tab-pane-challenges {
+        padding-right: 0 !important;
+    }
+
+    .tab-pane-challenges row {
+        padding-left: 40px;
+    }
+    
+    .template-customizer-open-btn {
+        display: none !important;
+    }
+
+    .landing-page-content-five-row {
+        margin: 65px;
+    }
+
+    .responsive-none {
+        display: block;
+    }
+    
+    .responsive-block {
+        display: none;
+    }
+
+    .landingpage-responsive-nav-align-left {
+        display: flex !important;
+    }
+    
+    .landingpage-form-btn {
+        font-size: 14px !important;
+    }
+
+    .landingpage-card-content-solution {
+        margin-top: 42px !important;
+    }
+
+    .bg-tab-solution .card-body {
+        padding-bottom: 0 !important;
+    }
+
+   /*  .navs-pills-left-solution-row {
+        padding-left: 55px;
+    } */
+
+    .landingpage-bullet-div {
+        padding-left: 90px !important;
+    }
+
+    .landingpage-features-block {
+        margin-bottom: 28px;
+    }
+
+    .call-icon {
+        width: auto;
+        margin-top: 10px;
+    }
+
+    .landingpage_img_whocanuseit {
+        width: 450px;
+    }
+
+    .responsive-whocanuseit-none {
+        display: flex !important;
+    }
+    
+    .responsive-whocanuseit-flex {
+        display: none !important;
+    }
+
+    .landingpage-content-two {
+        background: url("../img/landingpage/landingpage_content_two.svg");
+    }
+
+    .landing-tab-content-card .card-body {
+        padding-left: 46px;
+        padding-right: 46px;
+    }
+
+    .landingpage-card-content {
+        margin-bottom: 40px;
+    }
+}
+
+/* On screens that are 1600px or less, set the background color to blue */
+@media screen and (min-width: 1600px) {
+
+    .landingpage_banner {
+        margin-top: 60px;
+    }
+
+    .landingpage-header {
+        background-size: contain;
+    }
+
+    .landingpage_img_whocanuseit {
+        width: 529px;
+    }
+
+    .responsive-whocanuseit-none {
+        display: flex !important;
+    }
+    
+    .responsive-whocanuseit-flex {
+        display: none !important;
+    }
+
+    .landingpage-content-two {
+        background: url("../img/landingpage/landingpage_content_two.svg");
+    }
+
+    /* .landingpage-form-exicited {
+        margin-right: 50px;
+    } */
+}
+/* On screens that are 1600px or less, set the background color to blue */
+@media screen and (max-width: 1600px) {    
+    .tab-pane-challenges {
+        padding-right: 0 !important;
+        padding-left: 0px !important;
+    }
+}

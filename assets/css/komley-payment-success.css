@@ -1,0 +1,393 @@
+/* Begin: Font */
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-ExtraBold.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-BoldSlanted.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-BoldSlanted.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-Light.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-ExtraBoldSlanted.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-ExtraBoldSlanted.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-BlackSlanted.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-BlackSlanted.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-Bold.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-Black.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-Thin.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-ThinSlanted.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-ThinSlanted.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-MediumSlanted.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-MediumSlanted.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-RegularSlanted.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-RegularSlanted.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-Regular.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-LightSlanted.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-LightSlanted.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-SuperSlanted.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-SuperSlanted.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-Super.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-Super.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('../fonts/landing/Subjectivity-Medium.woff2') format('woff2'),
+      url('../fonts/landing/Subjectivity-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+/* End: Font */
+
+.komley-payment-success-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  /* border-color: var(--dl-color-gray-black);
+  border-width: 1px; */
+  flex-direction: column;
+  background-color: #F8F7F2;
+}
+.komley-payment-success-navbar-container {
+  z-index: 999999 !important;
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #EE316B;
+}
+.komley-payment-success-navbar {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-doubleunit);
+  justify-content: space-between;
+}
+.komley-payment-success-image {
+  width: 100px;
+  object-fit: cover;
+}
+.komley-payment-success-container1 {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  /* padding: calc(100px + 25px) 25px 25px; */
+  margin-top: var(--dl-space-space-tenunits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F8F7F2;
+}
+.komley-payment-success-hero {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  /* padding-top: var(--dl-space-space-tenunits); */
+  padding-left: var(--dl-space-space-tenunits);
+  padding-right: var(--dl-space-space-tenunits);
+  flex-direction: row;
+  padding-bottom: 150px;
+  justify-content: center;
+  background-color: #F8F7F2;
+}
+.komley-payment-success-hero-text-container {
+  width: 45%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.komley-payment-success-image1 {
+  width: auto;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+}
+.komley-payment-success-heading {
+  font-family: Subjectivity;
+  color: rgb(4, 4, 4);
+  margin: auto;
+  font-size: 36px;
+  align-self: flex-start;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.22;
+  margin-left: auto;
+  margin-bottom: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
+}
+.komley-payment-success-text {
+  color: #707070;
+  font-family: Public Sans;
+  margin-bottom: var(--dl-space-space-fiveunits);
+}
+.komley-payment-success-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.komley-payment-success-button {
+  color: #A9A9A9;
+  font-size: 14px;
+  border-color: #A9A9A9;
+  margin-right: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.komley-payment-success-button:hover {
+  /* color: #ffffff; */
+  background-color: #efe6e6;
+}
+.komley-payment-success-button1 {
+  color: #EE316B;
+  font-size: 14px;
+  border-color: #EE316B;
+  margin-right: 10px;
+  padding-left: 52px;
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: 52px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.komley-payment-success-button1:hover{
+  color: #ffffff;
+  background-color: #EE316B;
+}
+.komley-payment-success-footer-container {
+  z-index: 999999 !important;
+  left: 1px;
+  width: 100%;
+  bottom: 0px;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #F8F7F2;
+}
+.komley-payment-success-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: space-between;
+  font-family: Public Sans;
+}
+.komley-payment-success-text01, .komley-payment-success-text03 {
+  font-size: 16px;
+  font-weight: 400 !important;
+}
+.komley-payment-success-button, .komley-payment-success-button1 {
+  font-family: Public Sans;
+  font-weight: 600;
+  font-size: 14px;
+}
+@media(max-width: 1200px) {
+  .komley-payment-success-hero {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .komley-payment-success-hero-text-container {
+    width: 100%;
+    align-items: center;
+    margin-bottom: var(--dl-space-space-fourunits);
+    padding-right: 0px;
+  }
+  .komley-payment-success-heading {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+  }
+  .komley-payment-success-text01, .komley-payment-success-text03 {
+    font-size: 12px;
+  }
+  .komley-payment-success-button, .komley-payment-success-button1 {
+    font-size: 12px;
+  }
+}
+@media(max-width: 991px) {
+  .komley-payment-success-heading {
+    font-size: 30px;
+  }
+  .komley-payment-success-hero {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .komley-payment-success-hero-text-container {
+    width: 80%;
+    align-items: center;
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .komley-payment-success-text {
+    text-align: center;
+  }
+  .komley-payment-success-text01 {
+    text-align: center;
+  }
+  .komley-payment-success-text02 {
+    text-align: center;
+  }
+  .komley-payment-success-text03 {
+    text-align: center;
+  }
+  .komley-payment-success-footer {
+    flex-direction: column;
+  }
+}
+@media(max-width: 767px) {
+  .komley-payment-success-heading {
+    font-size: 30px;
+  }
+  .komley-payment-success-navbar {
+    position: relative;
+  }
+  .komley-payment-success-footer {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .komley-payment-success-hero {
+    padding: var(--dl-space-space-unit);
+  }
+  .komley-payment-success-hero-text-container {
+    width: 100%;
+  }
+  .komley-payment-success-footer {
+    flex-direction: column;
+  }
+}
